@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  
+  </head>
+  <body>
+      <div class="home-bg">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h1 class="home-hd">RAMA'S CAFE</h1>  
+                      <p class="para">Eat with Us Eat Healthy </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div col-12>
+            <div class="bg2">
+                <h1 class="hd" style="font-size:30px; margin-10px">MENU SECTION</h1>
+            </div>
+      </div>
+            
+      <div class="col-12 col-md-6">
+            <div class="card mb-5">
+                <img 
+                src="https://img.freepik.com/free-photo/portion-african-chapati-bean-stew-garlic-lemons_181624-57135.jpg?ga=GA1.1.1845494705.1712078977&semt=sph"
+                class="img"
+                />
+                <h1 class="card-hd">Parotta</h1>
+                <p class="card-para"> a layered flaky flatbread made from Maida or Atta. It is a popular dish in Kerala, Tamil areas of Sri Lanka and other Indian states of South India, and widely available in other countries like Malaysia and the United Arab Emirates.</p>
+            </div>
+      </div>
+            <div class="col-12 col-md-6">
+                <div class="card mb-5">
+                    <img 
+                    src="https://img.freepik.com/free-photo/freshly-cooked-meal-pork-rice-generated-by-ai_188544-38783.jpg?ga=GA1.1.1845494705.1712078977&semt=sph"
+                    class="img"
+                    />
+                    <h1 class="card-hd">Idly</h1>
+                    <p class="card-para">a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka.</p>
+                </div>
+            </div> 
+            <div class="col-12 col-md-6">
+                <div class="card mb-5">
+                    <img 
+                    src="https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086052.jpg?t=st=1721287628~exp=1721291228~hmac=b2cb7113801cee5453453a27cb88957798bd0fbfe50e0c5e77e0d935d083d456&w=360"
+                    class="img"
+                    />
+                    <h1 class="card-hd">Dosa</h1>
+                    <p class="card-para"> a thin, savoury crepe in South Indian cuisine made from a fermented batter of ground white gram and rice.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card mb-5">
+                    <img 
+                    src="https://img.freepik.com/free-photo/top-view-pakistan-meal-assortment_23-2148821514.jpg?ga=GA1.1.1845494705.1712078977&semt=sph"
+                    class="img"
+                    />
+                    <h1 class="card-hd">Biriyani</h1>
+                    <p class="card-para"> a mixed rice dish, mainly popular in South Asia. It is made with rice, some type of meat (chicken, goat, pork, lamb, beef, prawn, or fish) and spices.</p>
+                </div>
+            </div>
+            <div>
+                <img
+                src="C:\Users\Logeswaran\Downloads"
+                />
+            </div>
+                
+      </div>
+  </body>
+
+</html>
+------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.home-bg{
+    background-image: url('https://img.freepik.com/free-photo/bokchoy-bell-peppers-thai-traditional-food-table-against-black-background_23-2148093374.jpg?t=st=1721285605~exp=1721289205~hmac=883122779073e9a7b416bdb048a004a2211e775868dde38b09a5a5519ac16442&w=900');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+.home-hd{
+    color: White;
+    font-size: 55px;
+    font-family: "Bree Serif";
+    font-weight: 600;
+    padding: 10px;
+    margin: 20px;
+}
+.para{
+    color: White;
+    font-size: 30px;
+    font-family: "Bree Serif";
+}
+.bg2{
+    background-color: white;
+    
+}
+.img{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    border-style: solid;
+    margin: 15px;
+}
+.card-hd{
+    color: black;
+    font-size: 26 px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+.card-para{
+    color: grey;
+    font-size: 22px;
+    font-family: "Bree Serif";
+}
